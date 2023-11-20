@@ -1,0 +1,49 @@
+
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #dfccef;
+  border-radius: 10px;
+  background-color: #d1cdea;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.card {
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border: 1px solid #394a75;
+  border-radius: 5px;
+  background-color: #e6f6e8;
+  width: 90%;
+  text-decoration: none; 
+  font-weight: bold; 
+  color: #333; 
+  font-family: Arial, serif; 
+}
+
+.ticket {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 75%; 
+}
+
+.priority-icon {
+  margin-right: 10px; 
+}
+
+.dropdown {
+  display: block;
+}
+
+.statusicon {
+  width: 4%;
+}
